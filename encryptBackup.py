@@ -4,7 +4,10 @@ from optparse import OptionParser
 
 # CONFIGURATION
 
-# Define your aliases here. Keys = aliases, values = description of each device.
+# Define your aliases here. Aliases are short strings that correspond
+# to each of your hard drives in all of the dicts that follow.
+#
+# In this dict, Keys = aliases, values = description of each device.
 defs = {
 }
 
@@ -16,7 +19,7 @@ cryptPartitions = {
 path = {
 }
 
-# Define your destination paths here, i.e. subdirectory of mount point /mt/mount, key = alias
+# Define your destination paths here, i.e. subdirectory of mount point /mt/mount, key = alias, value = paths
 dest = {
 }
 
